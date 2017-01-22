@@ -22,7 +22,7 @@ function textMask() {
       }
 
       var textMaskInputElement = createTextMaskInputElement(
-        Object.assign({inputElement: inputElement}, scope.textMask)
+        Object.assign({inputElement}, scope.textMask)
       )
 
       element.on('blur keyup change input', function() {
